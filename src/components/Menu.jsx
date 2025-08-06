@@ -1,35 +1,41 @@
 import React from "react";
 import MenuCard from "../layouts/MenuCard";
+import menu5 from "../assets/img/menu5.png";
+import menu1 from "../assets/img/menu1.png";
+import menu2 from "../assets/img/menu2.png";
+import menu3 from "../assets/img/menu3.png";
+import menu4 from "../assets/img/menu4.png";    
+
 
 const Menu = () => {
   const menuData = [
     {
       id: 1,
-      img: "src/assets/img/menu1.png",
+      img: menu1,
       title: "Margarita Marvel",
       price: "16.99",
     },
     {
       id: 2,
-      img: "src/assets/img/menu2.png",
+      img: menu2,
       title: "Pesto Paradise",
       price: "18.99",
     },
     {
       id: 3,
-      img: "src/assets/img/menu3.png",
+      img: menu3,
       title: "Hawaiian Bliss",
       price: "14.99",
     },
     {
       id: 4,
-      img: "src/assets/img/menu4.png",
+      img: menu4,
       title: "Truffle Treasures",
       price: "15.99",
     },
     {
       id: 5,
-      img: "src/assets/img/menu5.png",
+      img: menu5,
       title: "Farmhouse Harvest",
       price: "18.99",
     },
