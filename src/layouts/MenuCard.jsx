@@ -13,13 +13,13 @@ const MenuCard = ({ id, img, title, price }) => {
         <p className=" text-center">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit.
         </p>
-        <div className=" flex flex-row items-center justify-center gap-4 pb-2">
-          <h3 className=" font-semibold text-xl text-center text-red-500">
+        <div className="flex flex-row items-center justify-center gap-4 pb-2">
+          <h3 className=" font-semibold text-lg text-center text-red-500">
             ₹ {price}
           </h3>
           <Button title="Order Now" />
           <a href="https://mywebar.com/p/Project_0_q5n9pqfdy9?_ga=2.44616738.728452364.1754469871-1087682851.1754469705">
-            <Button title="👁️👁️"/>
+            <Button title="👀"/>
           </a>
         </div>
       </div>
