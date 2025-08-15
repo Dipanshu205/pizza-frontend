@@ -7,9 +7,10 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row justify-between p-8 md:px-32 px-5">
         <div className=" w-full md:w-1/4">
           <h1 className=" font-semibold text-xl pb-4">CheesyBites</h1>
-          <p className=" text-sm">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt,
-            doloremque?
+          <p className=" text-sm font-serif">
+            Serving the finest pizzas with a touch of love and tradition over
+            the years. Join us for a slice of happiness and experience the best
+            in town.
           </p>
         </div>
         <div>
@@ -83,7 +84,7 @@ const Footer = () => {
               CheesyBites@gmail.com
             </Link>
             <Link to="/" spy={true} smooth={true} duration={500}>
-              +64 958 248 966
+              +91 958 ---- 966
             </Link>
             <Link to="/" spy={true} smooth={true} duration={500}>
               Social media
@@ -94,7 +95,7 @@ const Footer = () => {
       <div>
         <p className=" text-center py-4">
           @copyright developed by
-          <span className=" text-yellow-500"> champion programmers</span> | All
+          <span className=" text-yellow-500"> Ronin Facility</span> | All
           rights reserved
         </p>
       </div>

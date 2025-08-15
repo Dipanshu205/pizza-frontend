@@ -11,12 +11,11 @@ const Hero = () => {
           Authentic <span className="text-yellow-500">Pizzas</span> Timeless
           Flavors
         </h1>
-        <p className=" text-sm lg:text-base">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae
-          aspernatur similique dignissimos deleniti cum natus voluptatibus vitae
-          at nemo possimus.
+        <p className="text-sm lg:text-base italic">
+          Crafted with passion, baked to perfection — your slice of joy awaits!
         </p>
-        <Button title="Read More" />
+        <Button className="mt-2 text-lg lg:text-base" title="Grab Yours!" />
+
       </div>
 
       {/* img section  */}

@@ -72,9 +72,9 @@ const Navbar = () => {
           </Link>
         </nav>
 
-        <div className=" hidden md:flex items-center gap-4">
+        {/* <div className=" hidden md:flex items-center gap-4">
           <Button title="Sign Up" />
-        </div>
+        </div> */}
 
         <div className="md:hidden flex items-center">
           {menu ? (
@@ -142,9 +142,9 @@ const Navbar = () => {
           Review
         </Link>
 
-        <div className=" flex justify-center items-center gap-4">
+        {/* <div className=" flex justify-center items-center gap-4">
           <Button title="Sign Up" />
-        </div>
+        </div> */}
       </div>
     </header>
   );
