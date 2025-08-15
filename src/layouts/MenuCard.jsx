@@ -19,7 +19,7 @@ const MenuCard = ({ id, img, title, price }) => {
           </h3>
           <Button title="Order Now" />
           <a href="https://mywebar.com/p/Project_0_q5n9pqfdy9?_ga=2.44616738.728452364.1754469871-1087682851.1754469705">
-            <Button title="👀"/>
+            <Button icon={<i className="fa fa-eye"></i>} />
           </a>
         </div>
       </div>
